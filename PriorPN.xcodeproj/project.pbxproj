@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		983A862E19AE57DC00461AEA /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983A862C19AE57DC00461AEA /* Accelerate.framework */; };
+		983A862F19AE57DC00461AEA /* R.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983A862D19AE57DC00461AEA /* R.framework */; };
+		983A863519AE584E00461AEA /* FunzPriorPN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 983A863219AE584E00461AEA /* FunzPriorPN.cpp */; };
+		98982D0819B0972200DE72C4 /* PriorPNC.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 98982D0719B0972200DE72C4 /* PriorPNC.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		983A861E19AE574D00461AEA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		983A862019AE574D00461AEA /* PriorPN */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PriorPN; sourceTree = BUILT_PRODUCTS_DIR; };
+		983A862C19AE57DC00461AEA /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		983A862D19AE57DC00461AEA /* R.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = R.framework; path = ../../../../../../../Library/Frameworks/R.framework; sourceTree = "<group>"; };
+		983A863219AE584E00461AEA /* FunzPriorPN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FunzPriorPN.cpp; path = ../../func/FunzPriorPN.cpp; sourceTree = "<group>"; };
+		983A863319AE584E00461AEA /* FunzPriorPN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FunzPriorPN.h; path = ../../func/FunzPriorPN.h; sourceTree = "<group>"; };
+		98982D0719B0972200DE72C4 /* PriorPNC.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = PriorPNC.cpp; path = ../../func/PriorPNC.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983A861D19AE574D00461AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983A862E19AE57DC00461AEA /* Accelerate.framework in Frameworks */,
+				983A862F19AE57DC00461AEA /* R.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983A861719AE574D00461AEA = {
+			isa = PBXGroup;
+			children = (
+				983A862219AE574D00461AEA /* PriorPN */,
+				983A862119AE574D00461AEA /* Products */,
+				983A862C19AE57DC00461AEA /* Accelerate.framework */,
+				983A862D19AE57DC00461AEA /* R.framework */,
+			);
+			sourceTree = "<group>";
+		};
+		983A862119AE574D00461AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983A862019AE574D00461AEA /* PriorPN */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		983A862219AE574D00461AEA /* PriorPN */ = {
+			isa = PBXGroup;
+			children = (
+				98982D0719B0972200DE72C4 /* PriorPNC.cpp */,
+				983A863219AE584E00461AEA /* FunzPriorPN.cpp */,
+				983A863319AE584E00461AEA /* FunzPriorPN.h */,
+			);
+			path = PriorPN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		983A861F19AE574D00461AEA /* PriorPN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 983A862919AE574D00461AEA /* Build configuration list for PBXNativeTarget "PriorPN" */;
+			buildPhases = (
+				983A861C19AE574D00461AEA /* Sources */,
+				983A861D19AE574D00461AEA /* Frameworks */,
+				983A861E19AE574D00461AEA /* CopyFiles */,
+				983A863019AE57E900461AEA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PriorPN;
+			productName = PriorPN;
+			productReference = 983A862019AE574D00461AEA /* PriorPN */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		983A861819AE574D00461AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = niandra;
+			};
+			buildConfigurationList = 983A861B19AE574D00461AEA /* Build configuration list for PBXProject "PriorPN" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 983A861719AE574D00461AEA;
+			productRefGroup = 983A862119AE574D00461AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983A861F19AE574D00461AEA /* PriorPN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		983A863019AE57E900461AEA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/myfile",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd  /Users/niandra/Desktop/statistico/lavori/PriorPN/func/\n\nR CMD SHLIB   PriorPNC.cpp -Wall   /Users/niandra/Desktop/statistico/lavori/PriorPN/func/FunzPriorPN.cpp\n\n\n\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		983A861C19AE574D00461AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98982D0819B0972200DE72C4 /* PriorPNC.cpp in Sources */,
+				983A863519AE584E00461AEA /* FunzPriorPN.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		983A862719AE574D00461AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		983A862819AE574D00461AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		983A862A19AE574D00461AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/Library/Frameworks/R.framework/Versions/3.1/Resources/include,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Library/Frameworks/R.framework/Versions/3.1/Resources/include,
+				);
+				LIBRARY_SEARCH_PATHS = /Library/Frameworks/R.framework/Versions/3.1/Resources/include;
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		983A862B19AE574D00461AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+					/Library/Frameworks/R.framework/Versions/3.1/Resources/include,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/Library/Frameworks/R.framework/Versions/3.1/Resources/include,
+				);
+				LIBRARY_SEARCH_PATHS = /Library/Frameworks/R.framework/Versions/3.1/Resources/include;
+				MACH_O_TYPE = mh_dylib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		983A861B19AE574D00461AEA /* Build configuration list for PBXProject "PriorPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983A862719AE574D00461AEA /* Debug */,
+				983A862819AE574D00461AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		983A862919AE574D00461AEA /* Build configuration list for PBXNativeTarget "PriorPN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983A862A19AE574D00461AEA /* Debug */,
+				983A862B19AE574D00461AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 983A861819AE574D00461AEA /* Project object */;
+}
